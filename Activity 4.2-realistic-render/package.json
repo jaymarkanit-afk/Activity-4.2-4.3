@@ -1,19 +1,18 @@
 {
-  "name": "Activity 4.2 - Realistic render",
+  "name": "Activity-4.2-Realistic render",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "deploy": "vercel --prod"
   },
-  "devDependencies": {
-    "vite": "^4.0.4"
-  },
+  "devDependencies": {},
   "dependencies": {
     "lil-gui": "^0.17.0",
     "three": "^0.148.0",
+    "vite": "^4.0.4",
     "vercel": "^48.9.0"
   }
 }
